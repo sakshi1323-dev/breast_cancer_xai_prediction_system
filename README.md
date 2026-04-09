@@ -27,20 +27,21 @@ It helps improve trust and transparency in healthcare predictions by showing **h
 - Frontend/UI:Streamlit  
 
 ## Project Structure
-
+```bash
 Breast_Cancer_XAI_and_Risk/
 │
-├── app.py # Streamlit dashboard
-├── best_model.pkl # Trained ML model
-├── feature_names.pkl # Feature list
-├── requirements.txt # Dependencies
+├── app.py                  # Streamlit dashboard
+├── best_model.pkl          # Trained ML model
+├── feature_names.pkl       # Feature list
+├── requirements.txt        # Dependencies
 ├── README.md
 │
-├── notebooks/
-│ └── breast_cancer_analysis.ipynb # EDA + Model Training
+├── notebooks/              # EDA & training
+│   └── breast_cancer_analysis.ipynb
 │
-├── assets/
-│ └── style.css # UI styling (optional)
+├── assets/                 # UI styling
+│   └── style.css
+```
 
 
 ## How to Run Locally
