@@ -48,7 +48,7 @@ async function predict() {
         data[f] = parseFloat(document.getElementById(f).value);
     });
 
-    const response = await fetch("https://YOUR-RENDER-URL/predict", {
+    const response = await fetch("https://breast-cancer-xai-prediction-system.onrender.com/predict", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
