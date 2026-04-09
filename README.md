@@ -55,7 +55,7 @@ pip install -r requirements.txt
 3. Run the Application
 streamlit run app.py
 
-👉 The app will open in your browser automatically.
+The app will open in your browser automatically.
 
 Model Details
 Models Used:
